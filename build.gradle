@@ -15,12 +15,19 @@ repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
-
-    flatDir {
-        dirs rootProject.file('libs')
-    }
 }
+
+libsDirName = '../'
 
 dependencies {
     testImplementation 'junit:junit:4.12'
+}
+
+task genJavadoc(type: Javadoc) {
+    source = sourceSets.main.allJava
+    destinationDir = file("./docs")
+}
+
+task release(type: Javadoc) {
+    finalizedBy genJavadoc, clean, build
 }

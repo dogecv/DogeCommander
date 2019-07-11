@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by Victo on 8/12/2018.
+ * The Robot should be inherited by the user; it holds all Subsystems and updates them on their own thread
  */
 
 public abstract class Robot {
@@ -22,15 +22,26 @@ public abstract class Robot {
         }
     };
 
-    void setCommander(DogeCommander commander) {
-        this.commander = commander;
-    }
-
+    /**
+     * This should be called on all subsystems, and register them to be initialized and updated
+     * @param subsystem the subsystem to add
+     */
     protected void addSubsystem(Subsystem subsystem) {
         subsystems.add(subsystem);
     }
 
-    public void init() {
+    /**
+     * Sets the DogeCommander for this robot; called by the DogeCommander class
+     * @param commander the DogeCommander set
+     */
+    void setCommander(DogeCommander commander) {
+        this.commander = commander;
+    }
+
+    /**
+     * Initializes the hardware of the Subsystems and starts the update thread; called by the DogeCommander class
+     */
+    void init() {
         for (Subsystem subsystem : subsystems) {
             subsystem.initHardware();
         }

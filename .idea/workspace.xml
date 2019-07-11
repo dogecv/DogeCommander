@@ -2,48 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b095771a-17b2-42cc-a5ab-df38ce0d2692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/DogeCommander_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/DogeCommander_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DogeCommander.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/DogeCommander_main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/DogeCommander.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Robot$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Robot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Subsystem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/pid/PIDController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/pid/PIDSettings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/META-INF/DogeCommander_main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest$CommandCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest$SubsystemCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest$TestRobot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/DogeCommander.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/DogeCommander.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Robot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/pid/PIDController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/pid/PIDController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -108,58 +76,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="353">
+              <caret line="41" column="113" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1256#1257#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1190#1191#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDController.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="180">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="477">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,7 +140,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/auto/DogeSettings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/UniLogger.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/hardware/DogeSubsystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/hardware/DogeBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/utils/PIDController.java" />
@@ -190,13 +150,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/auto/DogeCommander.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/hardware/Robot.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/hardware/RobotTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/RobotTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -213,8 +175,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1061" />
+    <option name="width" value="1920" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -229,69 +191,6 @@
             <path>
               <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
               <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dogecommander" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dogecommander" type="462c0819:PsiDirectoryNode" />
-              <item name="pid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DogeCommander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DogeCommander" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dogecommander" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,11 +253,17 @@
     <history-entry file="Run_Tests - 2019.07.11 at 00h 36m 21s.xml">
       <configuration name="Run Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Run_Tests - 2019.07.11 at 01h 06m 28s.xml">
+      <configuration name="Run Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_Tests - 2019.07.11 at 01h 18m 21s.xml">
+      <configuration name="Run Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1061" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="743" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46280086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22572039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -369,15 +274,15 @@
       <window_info anchor="bottom" id="Messages" weight="0.32946146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3709869" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32946146" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32946146" />
+      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.3290938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,16 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/examples/subsystems/NavigationHardware.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -477,49 +372,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-          </folding>
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="645">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -545,10 +407,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="378">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Subsystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/docs/javadoc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="41" column="113" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="90" column="46" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

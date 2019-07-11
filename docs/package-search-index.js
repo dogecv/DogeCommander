@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.disnodeteam.dogecommander"},{"l":"com.disnodeteam.dogecommander.pid"}]
