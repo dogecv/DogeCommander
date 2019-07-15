@@ -105,6 +105,5 @@ public class DogeCommanderTest {
 
         assert(command1.stopCalls == 1);
         assert(command2.stopCalls == 1);
-
     }
 }
