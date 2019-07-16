@@ -26,7 +26,7 @@ public abstract class Robot {
      * This should be called on all subsystems, and register them to be initialized and updated
      * @param subsystem the subsystem to add
      */
-    protected void addSubsystem(Subsystem subsystem) {
+    public void addSubsystem(Subsystem subsystem) {
         subsystems.add(subsystem);
     }
 
@@ -41,7 +41,7 @@ public abstract class Robot {
     /**
      * Initializes the hardware of the Subsystems and starts the update thread; called by the DogeCommander class
      */
-    void init() {
+    public void init() {
         for (Subsystem subsystem : subsystems) {
             subsystem.initHardware();
         }

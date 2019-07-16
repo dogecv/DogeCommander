@@ -9,6 +9,7 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id 'org.jetbrains.kotlin.jvm' version '1.3.41'
 }
 
 repositories {
@@ -20,8 +21,11 @@ repositories {
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
+libsDirName = '../' 
+
 dependencies {
     testImplementation 'junit:junit:4.12'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
 }
 
 task genJavadoc(type: Javadoc) {

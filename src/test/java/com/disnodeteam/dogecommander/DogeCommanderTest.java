@@ -3,9 +3,6 @@
  */
 package com.disnodeteam.dogecommander;
 
-import com.disnodeteam.dogecommander.DogeCommander;
-import com.disnodeteam.dogecommander.Robot;
-import com.disnodeteam.dogecommander.Subsystem;
 import org.junit.Test;
 
 public class DogeCommanderTest {
