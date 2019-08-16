@@ -29,7 +29,7 @@ public class DogeCommanderTest {
         }
     }
 
-    class CommandCounter implements Command {
+    class CommandCounterTimeEnd implements Command {
         private long time = System.currentTimeMillis();
 
         private int startCalls = 0;
@@ -57,10 +57,49 @@ public class DogeCommanderTest {
         }
     }
 
-    private DogeCommander commander = new DogeCommander();
+    class CommandCounter implements Command {
+        private long time = System.currentTimeMillis();
+
+        private int startCalls = 0;
+        private int periodicCalls = 0;
+        private int stopCalls = 0;
+        private int targetPeriodicCalls;
+
+        public CommandCounter(int targetPeriodicCalls) {
+            this.targetPeriodicCalls = targetPeriodicCalls;
+        }
+
+        @Override
+        public void start() {
+            ++startCalls;
+        }
+
+        @Override
+        public void periodic() {
+            ++periodicCalls;
+        }
+
+        @Override
+        public void stop() {
+            ++stopCalls;
+        }
+
+        @Override
+        public boolean isCompleted() {
+            return periodicCalls >= targetPeriodicCalls;
+        }
+    }
+
+    private DogeCommander commander;
+    private DogeBot testDogeBot;
 
     public DogeCommanderTest() {
+        commander = new DogeCommander();
+        testDogeBot = new TestDogeBot();
+
         commander.setBot(testDogeBot);
+        commander.init();
+        commander.start();
     }
 
     private SubsystemCounter subsystem1 = new SubsystemCounter();
@@ -73,12 +112,8 @@ public class DogeCommanderTest {
         }
     }
 
-    DogeBot testDogeBot = new TestDogeBot();
 
     @Test public void testIfSubsystemMethodsAreCalledByRobot() throws InterruptedException {
-        commander.init();
-        commander.start();
-
         assert(subsystem1.initHardwareCalls == 1);
         assert(subsystem2.initHardwareCalls == 1);
 
@@ -89,16 +124,19 @@ public class DogeCommanderTest {
     }
 
     @Test public void testIfDogeCommanderRunsCommands() {
-        CommandCounter command1 = new CommandCounter();
-        CommandCounter command2 = new CommandCounter();
+        final int COMMAND1_RUNS = 2;
+        final int COMMAND2_RUNS = 5;
 
-        commander.runCommandsParallel(new Command[]{command1, command2});
+        CommandCounter command1 = new CommandCounter(COMMAND1_RUNS);
+        CommandCounter command2 = new CommandCounter(COMMAND2_RUNS);
+
+        commander.runCommandsParallel(command1, command2);
 
         assert(command1.startCalls == 1);
         assert(command2.startCalls == 1);
 
-        assert(command1.periodicCalls >= 2);
-        assert(command2.periodicCalls >= 2);
+        assert(command1.periodicCalls == COMMAND1_RUNS);
+        assert(command2.periodicCalls == COMMAND2_RUNS);
 
         assert(command1.stopCalls == 1);
         assert(command2.stopCalls == 1);

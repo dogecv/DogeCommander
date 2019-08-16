@@ -61,14 +61,14 @@ public class DogeCommander {
      * @param command the command to run
      */
     public void runCommand(Command command){
-        runCommandsParallel(new Command[]{command});
+        runCommandsParallel(command);
     }
 
     /**
-     * This runs an array of commands to completion in parallel
+     * This runs a series of commands to completion in parallel
      * @param commands the commands to run
      */
-    public void runCommandsParallel(Command[] commands){
+    public void runCommandsParallel(Command... commands){
         this.halt = false;
         for(Command command : commands){
             currentStack.add(command);
@@ -76,13 +76,21 @@ public class DogeCommander {
         }
 
         while(isRunning() && isTaskRunningInStack()){
-            for(Command command : commands){
+            ArrayList<Command> commandsToRemove = new ArrayList<>();
+
+            for(Command command : currentStack){
                 command.periodic();
+
+                if (command.isCompleted()) {
+                    command.stop();
+                    commandsToRemove.add(command);
+                }
             }
+
+            currentStack.removeAll(commandsToRemove);
         }
 
-        for(Command command : commands){
-            command.stop();
+        for (Command command : commands) {
             currentStack.remove(command);
         }
     }
