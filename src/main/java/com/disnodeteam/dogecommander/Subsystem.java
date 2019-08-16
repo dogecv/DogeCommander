@@ -8,12 +8,12 @@ package com.disnodeteam.dogecommander;
 public interface Subsystem {
     /**
      * This method should initialize the hardware of the component. This is
-     * called by Robot.
+     * called by DogeBot.
      */
     void initHardware();
 
     /**
-     * This method is called by Robot while the DogeCommander is active.
+     * This method is called by DogeBot while the DogeCommander is active.
      */
     void periodic();
 }

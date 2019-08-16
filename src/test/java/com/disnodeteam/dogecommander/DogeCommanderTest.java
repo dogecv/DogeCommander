@@ -60,20 +60,20 @@ public class DogeCommanderTest {
     private DogeCommander commander = new DogeCommander();
 
     public DogeCommanderTest() {
-        commander.setBot(testRobot);
+        commander.setBot(testDogeBot);
     }
 
     private SubsystemCounter subsystem1 = new SubsystemCounter();
     private SubsystemCounter subsystem2 = new SubsystemCounter();
 
-    class TestRobot extends Robot {
-        public TestRobot() {
+    class TestDogeBot extends DogeBot {
+        public TestDogeBot() {
             addSubsystem(subsystem1);
             addSubsystem(subsystem2);
         }
     }
 
-    Robot testRobot = new TestRobot();
+    DogeBot testDogeBot = new TestDogeBot();
 
     @Test public void testIfSubsystemMethodsAreCalledByRobot() throws InterruptedException {
         commander.init();

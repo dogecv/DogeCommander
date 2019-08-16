@@ -4,10 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * The Robot should be inherited by the user; it holds all Subsystems and updates them on their own thread
+ * The DogeBot should be inherited by the user; it holds all Subsystems and updates them on their own thread
  */
 
-public abstract class Robot {
+public abstract class DogeBot {
     private Set<Subsystem> subsystems = new HashSet<>();
     private DogeCommander commander;
 
