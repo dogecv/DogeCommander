@@ -108,6 +108,10 @@ public class DogeCommander {
         for (Command command : commands) {
             currentStack.remove(command);
         }
+
+        if (!opMode.opModeIsActive()) {
+            stop();
+        }
     }
 
     private boolean isTaskRunningInStack() {
