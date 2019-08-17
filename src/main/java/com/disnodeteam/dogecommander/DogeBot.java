@@ -24,6 +24,7 @@ public abstract class DogeBot {
 
     /**
      * This should be called on all subsystems, and register them to be initialized and updated
+     *
      * @param subsystem the subsystem to add
      */
     public void addSubsystem(Subsystem subsystem) {
@@ -32,6 +33,7 @@ public abstract class DogeBot {
 
     /**
      * Sets the DogeCommander for this robot; called by the DogeCommander class
+     *
      * @param commander the DogeCommander set
      */
     void setCommander(DogeCommander commander) {

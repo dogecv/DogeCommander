@@ -27,7 +27,7 @@ public class PIDController {
 
         errorSum += error;
 
-        double result = (kP * error) + (kI*dt*errorSum) + (kD/dt *(error-previousError));
+        double result = (kP * error) + (kI * dt * errorSum) + (kD / dt * (error - previousError));
 
         previousError = error;
 

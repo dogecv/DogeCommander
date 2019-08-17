@@ -11,11 +11,21 @@ public class DogeCommander {
 
     private DogeBot bot;
     private boolean halt;
-    private String status;
+    private DogeOpMode opMode;
     private List<Command> currentStack = new ArrayList<>();
 
     /**
+     * This creates a new DogeCommander
+     * @param opMode the DogeOpMode that the commander is associated with; for
+     *               LinearOpMode you can just make it implement DogeOpMode
+     */
+    public DogeCommander(DogeOpMode opMode) {
+        this.opMode = opMode;
+    }
+
+    /**
      * This method sets the robot for the DogeCommander, and it also sets this commander as the robot's commander
+     *
      * @param bot the DogeBot to set
      */
     public void setBot(DogeBot bot) {
@@ -26,6 +36,7 @@ public class DogeCommander {
     /**
      * This method initializes anything the DogeCommander needs; namely initializing the bot.
      * This should be called at the init phase of the OpMode.
+     *
      * @see DogeBot#init()
      */
     public void init() {
@@ -50,6 +61,7 @@ public class DogeCommander {
 
     /**
      * This returns whether or not the DogeCommander is active
+     *
      * @return if the DogeCommander is currently active
      */
     public boolean isRunning() {
@@ -58,27 +70,30 @@ public class DogeCommander {
 
     /**
      * This runs a singular command to completion
+     *
      * @param command the command to run
      */
-    public void runCommand(Command command){
+    public void runCommand(Command command) {
         runCommandsParallel(command);
     }
 
     /**
      * This runs a series of commands to completion in parallel
+     *
      * @param commands the commands to run
      */
-    public void runCommandsParallel(Command... commands){
+    public void runCommandsParallel(Command... commands) {
         this.halt = false;
-        for(Command command : commands){
+        for (Command command : commands) {
             currentStack.add(command);
             command.start();
         }
 
-        while(isRunning() && isTaskRunningInStack()){
+        while (isRunning() && isTaskRunningInStack() &&
+                opMode.opModeIsActive()) {
             ArrayList<Command> commandsToRemove = new ArrayList<>();
 
-            for(Command command : currentStack){
+            for (Command command : currentStack) {
                 command.periodic();
 
                 if (command.isCompleted()) {
@@ -95,10 +110,10 @@ public class DogeCommander {
         }
     }
 
-    private boolean isTaskRunningInStack(){
+    private boolean isTaskRunningInStack() {
         boolean isTaskRunning = false;
 
-        for(Command command : currentStack){
+        for (Command command : currentStack) {
             isTaskRunning = isTaskRunning || !command.isCompleted();
 
         }

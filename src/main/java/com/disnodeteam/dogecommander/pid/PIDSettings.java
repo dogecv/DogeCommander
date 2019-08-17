@@ -5,7 +5,7 @@ public class PIDSettings {
     private double I = 0;
     private double D = 0;
 
-    public void set(double P , double I, double D){
+    public void set(double P, double I, double D) {
         this.P = P;
         this.I = I;
         this.D = D;

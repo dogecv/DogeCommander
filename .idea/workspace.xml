@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b095771a-17b2-42cc-a5ab-df38ce0d2692" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/DogeCommander_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/DogeCommander_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/DogeCommander_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/DogeCommander_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeOpMode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/DogeCommander.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/DogeCommander.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Robot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/disnodeteam/dogecommander/Robot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest$CommandCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest$CommandCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest$TestRobot.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/disnodeteam/dogecommander/DogeCommanderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/pid/PIDSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -85,39 +84,51 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#2112#2113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="125" column="53" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
+            <state relative-caret-position="244">
+              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
               <folding>
                 <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
-                <element signature="e#1763#1764#0" expanded="true" />
-                <element signature="e#1815#1816#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1902#1903#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1719#1720#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="e#1929#1930#0" expanded="true" />
+                <element signature="e#2205#2345#0" expanded="true" />
+                <element signature="e#2344#2345#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeOpMode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -129,6 +140,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -167,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/Robot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeBot.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeOpMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java" />
       </list>
@@ -246,7 +259,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../speedy-doge/speedy-doge" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -291,9 +304,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_Tests - 2019.07.14 at 22h 06m 28s.xml">
-      <configuration name="Run Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Run_Tests - 2019.07.14 at 22h 09m 05s.xml">
       <configuration name="Run Tests" configurationId="JUnit" />
     </history-entry>
@@ -321,12 +331,15 @@
     <history-entry file="Run_Tests - 2019.08.16 at 15h 48m 13s.xml">
       <configuration name="Run Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Run_Tests - 2019.08.16 at 22h 03m 22s.xml">
+      <configuration name="Run Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -336,7 +349,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37053087" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37053087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,7 +358,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32946146" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.21776815" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32946146" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -443,35 +456,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeOpMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/disnodeteam/dogecommander/DogeCommander.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+        <state relative-caret-position="180">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/disnodeteam/dogecommander/DogeCommanderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="125" column="53" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
+        <state relative-caret-position="244">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
           <folding>
             <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#2205#2345#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
           </folding>
         </state>
       </provider>

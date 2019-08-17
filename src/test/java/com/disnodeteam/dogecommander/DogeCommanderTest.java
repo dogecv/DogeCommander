@@ -94,7 +94,12 @@ public class DogeCommanderTest {
     private DogeBot testDogeBot;
 
     public DogeCommanderTest() {
-        commander = new DogeCommander();
+        commander = new DogeCommander(new DogeOpMode() {
+            @Override
+            public boolean opModeIsActive() {
+                return true;
+            }
+        });
         testDogeBot = new TestDogeBot();
 
         commander.setBot(testDogeBot);

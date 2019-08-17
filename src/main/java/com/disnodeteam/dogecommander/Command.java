@@ -7,6 +7,7 @@ package com.disnodeteam.dogecommander;
 public interface Command {
     /**
      * This function is called once whenever the command is run. This typically initializes things for the command.
+     *
      * @see DogeCommander#runCommand(Command)
      */
     void start();
