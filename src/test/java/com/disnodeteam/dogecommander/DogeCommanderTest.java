@@ -65,7 +65,7 @@ public class DogeCommanderTest {
         private int stopCalls = 0;
         private int targetPeriodicCalls;
 
-        public CommandCounter(int targetPeriodicCalls) {
+        CommandCounter(int targetPeriodicCalls) {
             this.targetPeriodicCalls = targetPeriodicCalls;
         }
 
@@ -91,7 +91,10 @@ public class DogeCommanderTest {
     }
 
     private DogeCommander commander;
-    private DogeBot testDogeBot;
+
+    private SubsystemCounter subsystem1 = new SubsystemCounter();
+
+    private SubsystemCounter subsystem2 = new SubsystemCounter();
 
     public DogeCommanderTest() {
         commander = new DogeCommander(new DogeOpMode() {
@@ -100,21 +103,12 @@ public class DogeCommanderTest {
                 return true;
             }
         });
-        testDogeBot = new TestDogeBot();
 
-        commander.setBot(testDogeBot);
+        commander.registerSubsystem(subsystem1);
+        commander.registerSubsystem(subsystem2);
+
         commander.init();
         commander.start();
-    }
-
-    private SubsystemCounter subsystem1 = new SubsystemCounter();
-    private SubsystemCounter subsystem2 = new SubsystemCounter();
-
-    class TestDogeBot extends DogeBot {
-        public TestDogeBot() {
-            addSubsystem(subsystem1);
-            addSubsystem(subsystem2);
-        }
     }
 
 
