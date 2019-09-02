@@ -1,5 +1,5 @@
 # DogeCommander
-A new way to write FTC bots! 
+A new way to write code for FTC bots! 
 
 ## What is this?
 This is a Command library.
@@ -11,7 +11,7 @@ program FTC robots. Your code is split into 2 main parts: `Subsystem`s, and
 easily run parallely.
 
 ## How do I install it?
-1. Add the line `implementation 'com.github.dogecv:dogecommander:90d3237fb8'` to TeamCode's `build.gradle`, inside the `dependencies` block. See the [DogeQuickStart](https://github.com/dogecv/DogeQuickStart/blob/6783d597d9b6f6dc9fb1c841033498a61658bd13/TeamCode/build.release.gradle#L10)
+1. Add the line `implementation 'com.github.dogecv:dogecommander:v1.0.0'` to TeamCode's `build.gradle`, inside the `dependencies` block. See the [DogeQuickStart](https://github.com/dogecv/DogeQuickStart/blob/6783d597d9b6f6dc9fb1c841033498a61658bd13/TeamCode/build.release.gradle#L10)
 2. Run a gradle build, and ensure it works
 3. Your install should be complete!
 
