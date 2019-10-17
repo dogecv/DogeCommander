@@ -11,7 +11,7 @@ program FTC robots. Your code is split into 2 main parts: `Subsystem`s, and
 easily run parallely.
 
 ## How do I install it?
-1. Add the Jitpack repository at the end of your root `build.gradle` at the end of repositories:
+1. Add the Jitpack repository at the end of your root `build.release.gradle` at the end of repositories:
 ```groovy
 allprojects {
   repositories {
